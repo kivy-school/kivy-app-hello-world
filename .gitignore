@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.kivy
+
+# psproject
+.psproject/*
+project_dist/xcode/site_packages/
+project_dist/xcode/build/
+
+# Xcode user data
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+
+# macOS
+.DS_Store
+
+# wheel_sources build artifacts
+wheel_sources/Kivy/build/
+wheel_sources/Kivy/dist/
+wheel_sources/Kivy/kivy-dependencies/
+wheel_sources/Kivy/angle-iphoneall-universal.tar.gz

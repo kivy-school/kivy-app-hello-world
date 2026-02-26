@@ -1,0 +1,67 @@
+[build-system]
+build-backend = "uv_build"
+requires = [ "uv_build>=0.10.5,<0.11.0" ]
+
+[dependency-groups]
+dev = [
+ "cibuildwheel>=3.3.1",
+ "pip>=26.0.1",
+ "ps-launcher",
+ "psproject",
+]
+iphoneos = []
+
+[project]
+authors = [ { email = "psychowaspx@gmail.com", name = "Py-Swift" } ]
+dependencies = [
+    "kivy==3.0.0.dev0",
+]
+description = "Add your description here"
+name = "mynewkivyapp"
+readme = "README.md"
+requires-python = ">=3.13"
+version = "0.1.0"
+
+[project.scripts]
+mynewkivyapp = "mynewkivyapp:main"
+
+[[tool.uv.index]]
+url = "file:///Volumes/CodeSSD/psproject_showcases/MyNewKivyApp/wheels/simple"
+
+[tool.uv.sources]
+ps-launcher = { workspace = true }
+psproject = { path = "../../GitHub/PSProject" }
+
+[tool.uv.pip]
+extra-index-url = [
+    "https://pypi.anaconda.org/beeware/simple",
+    "https://pypi.anaconda.org/pyswift/simple",
+    "https://pypi.anaconda.org/kivyschool/simple",
+]
+
+[tool.uv.workspace]
+members = [
+    "ps_launcher",
+]
+
+#### PSProject Configuration ####
+
+[tool.psproject]
+app_name = "MyNewKivyApp"
+backends = [
+    "kivyschool.kivy3launcher"
+]
+copy__main__py = true
+cythonized = false
+pip_install_app = true
+
+[tool.psproject.entitlements]
+
+[tool.psproject.info_plist]
+
+[tool.psproject.ios]
+backends = []
+
+[tool.psproject.macos]
+
+[tool.psproject.swift_packages]
