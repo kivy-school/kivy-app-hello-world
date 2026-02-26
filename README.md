@@ -6,7 +6,7 @@ uv sync
 
 make build-wheels executable
 ```
-chmod -x build-wheels.sh
+chmod +x build-wheels.sh
 ```
 
 build custom wheels for local wheels/simple
