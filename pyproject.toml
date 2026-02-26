@@ -15,18 +15,21 @@ iphoneos = []
 authors = [ { email = "psychowaspx@gmail.com", name = "Py-Swift" } ]
 dependencies = [
     "kivy==3.0.0.dev0",
+    "kivymd==1.2.0",
+    "pip>=26.0.1",
 ]
 description = "Add your description here"
-name = "mynewkivyapp"
+name = "hello-world"
 readme = "README.md"
 requires-python = ">=3.13"
 version = "0.1.0"
 
 [project.scripts]
-mynewkivyapp = "mynewkivyapp:main"
+hello-world = "hello_world:main"
 
 [[tool.uv.index]]
-url = "file:///Volumes/CodeSSD/psproject_showcases/MyNewKivyApp/wheels/simple"
+# TODO: Change this to the actual path where the wheel files are currently located
+url = "file://path_to/kivy-app-hello-world/wheels/simple"
 
 [tool.uv.sources]
 ps-launcher = { workspace = true }
@@ -47,7 +50,7 @@ members = [
 #### PSProject Configuration ####
 
 [tool.psproject]
-app_name = "MyNewKivyApp"
+app_name = "HelloWorld"
 backends = [
     "kivyschool.kivy3launcher"
 ]

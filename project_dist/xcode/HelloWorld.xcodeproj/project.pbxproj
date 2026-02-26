@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DE6C081841B7C83E90B8CD /* Kivy3Launcher in Frameworks */ = {isa = PBXBuildFile; productRef = 95F2875545B429F7DB5EF722 /* Kivy3Launcher */; };
+		08A44D3E2B602F62A3F30B96 /* SDL3_ttf.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F56E58A5C5AA1A075C98844 /* SDL3_ttf.xcframework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0CCE9349F3217FCC7D3572EC /* Kivy3Launcher in Frameworks */ = {isa = PBXBuildFile; productRef = 67917F3AAA7924FD8CDD82A8 /* Kivy3Launcher */; };
+		116B37BA7193FA042545BD03 /* dylib-Info-template.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A76D03B2674E788C09078E9 /* dylib-Info-template.plist */; };
+		29515D9941D746A898C88438 /* SDL3_image.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D03C4CC89E491D9295489C9 /* SDL3_image.xcframework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FEE245991976C5CE8096B93 /* libGLESv2.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCEE2C7DE65D02DC3807645 /* libGLESv2.xcframework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3E12C23F587D33A46C04972E /* libEGL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA7CCA11BC30763944E5C88 /* libEGL.xcframework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4235AFA7ED21411551156042 /* SDL3_ttf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F56E58A5C5AA1A075C98844 /* SDL3_ttf.xcframework */; platformFilter = ios; };
+		43C9A7C244CC34F338EE8E32 /* SDL3.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2BAD2E4386D79088D27DE1 /* SDL3.xcframework */; platformFilter = ios; };
+		487C76E8138AC19D30FBC661 /* SDL3.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2BAD2E4386D79088D27DE1 /* SDL3.xcframework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A5D7B93797681D072ACD584 /* Kivy_iOS_Module in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = C08349877672CCCE516B423D /* Kivy_iOS_Module */; };
+		53839D8AEEA66D454A3F9D20 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54CC25E1818FC239B60526 /* main.swift */; platformFilters = (macos, ); };
+		64FFC984A9B298C292D8F04E /* SDL3_image.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D03C4CC89E491D9295489C9 /* SDL3_image.xcframework */; platformFilter = ios; };
+		6E192E21AC92146AE8ACD983 /* libEGL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA7CCA11BC30763944E5C88 /* libEGL.xcframework */; platformFilter = ios; };
+		7444257F5CF45AE3C6AA5844 /* Kivy_iOS_Module in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = C8BF671F77B9BEFB5B78EE23 /* Kivy_iOS_Module */; };
+		78059FB861F845E00892AB5C /* libGLESv2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCEE2C7DE65D02DC3807645 /* libGLESv2.xcframework */; platformFilter = ios; };
+		7962B8CA3838B790903EA0A7 /* CPython in Frameworks */ = {isa = PBXBuildFile; productRef = C83E4EF130BFC7961C692AA7 /* CPython */; };
+		9B8359A36279DE175732C2E3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9E798D7566FA17B53962D4 /* Launch Screen.storyboard */; platformFilter = ios; };
+		A450D8EFF3CC40EF6D8A51D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF42C12BAE6C17A2BD48B99 /* Images.xcassets */; };
+		BFA7E721ADD6641F21990F1A /* SDL3_mixer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0BDCCEBA8D67051D44B471 /* SDL3_mixer.xcframework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE2426DB0CD1E190F4C6A31F /* SDL3_mixer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0BDCCEBA8D67051D44B471 /* SDL3_mixer.xcframework */; platformFilter = ios; };
+		D2728B7103F0DB4F5813AD02 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701AAE406745DD00D652140D /* main.swift */; platformFilter = ios; };
+		E5C85D1F07153227204F81D6 /* PySwiftKitBase in Frameworks */ = {isa = PBXBuildFile; productRef = 5E888B0492FC4F0FC70438B0 /* PySwiftKitBase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		783A22C08E41D1E6CB1B49BE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				487C76E8138AC19D30FBC661 /* SDL3.xcframework in Embed Frameworks */,
+				29515D9941D746A898C88438 /* SDL3_image.xcframework in Embed Frameworks */,
+				BFA7E721ADD6641F21990F1A /* SDL3_mixer.xcframework in Embed Frameworks */,
+				08A44D3E2B602F62A3F30B96 /* SDL3_ttf.xcframework in Embed Frameworks */,
+				3E12C23F587D33A46C04972E /* libEGL.xcframework in Embed Frameworks */,
+				2FEE245991976C5CE8096B93 /* libGLESv2.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D03C4CC89E491D9295489C9 /* SDL3_image.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDL3_image.xcframework; path = Support/SDL3_image.xcframework; sourceTree = "<group>"; };
+		2EA7CCA11BC30763944E5C88 /* libEGL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libEGL.xcframework; path = Support/libEGL.xcframework; sourceTree = "<group>"; };
+		35D466DB8920E7A52C599EBC /* HelloWorld.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF42C12BAE6C17A2BD48B99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		701AAE406745DD00D652140D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7B9E798D7566FA17B53962D4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7CCEE2C7DE65D02DC3807645 /* libGLESv2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libGLESv2.xcframework; path = Support/libGLESv2.xcframework; sourceTree = "<group>"; };
+		8F56E58A5C5AA1A075C98844 /* SDL3_ttf.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDL3_ttf.xcframework; path = Support/SDL3_ttf.xcframework; sourceTree = "<group>"; };
+		9A0BDCCEBA8D67051D44B471 /* SDL3_mixer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDL3_mixer.xcframework; path = Support/SDL3_mixer.xcframework; sourceTree = "<group>"; };
+		9A76D03B2674E788C09078E9 /* dylib-Info-template.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "dylib-Info-template.plist"; sourceTree = "<group>"; };
+		9B2BAD2E4386D79088D27DE1 /* SDL3.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDL3.xcframework; path = Support/SDL3.xcframework; sourceTree = "<group>"; };
+		FF54CC25E1818FC239B60526 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4C57884A372C8EC69F16CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C85D1F07153227204F81D6 /* PySwiftKitBase in Frameworks */,
+				7962B8CA3838B790903EA0A7 /* CPython in Frameworks */,
+				43C9A7C244CC34F338EE8E32 /* SDL3.xcframework in Frameworks */,
+				64FFC984A9B298C292D8F04E /* SDL3_image.xcframework in Frameworks */,
+				CE2426DB0CD1E190F4C6A31F /* SDL3_mixer.xcframework in Frameworks */,
+				4235AFA7ED21411551156042 /* SDL3_ttf.xcframework in Frameworks */,
+				6E192E21AC92146AE8ACD983 /* libEGL.xcframework in Frameworks */,
+				78059FB861F845E00892AB5C /* libGLESv2.xcframework in Frameworks */,
+				0CCE9349F3217FCC7D3572EC /* Kivy3Launcher in Frameworks */,
+				7444257F5CF45AE3C6AA5844 /* Kivy_iOS_Module in Frameworks */,
+				02DE6C081841B7C83E90B8CD /* Kivy3Launcher in Frameworks */,
+				4A5D7B93797681D072ACD584 /* Kivy_iOS_Module in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00961668E9C919BF4554CF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35D466DB8920E7A52C599EBC /* HelloWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DA1511E5CA5A89415771F2C /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				FF54CC25E1818FC239B60526 /* main.swift */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
+		2AFB6256646F5C748E027F5E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7B93E1018888AE0B2ABBDF3E /* IphoneOS */,
+				1DA1511E5CA5A89415771F2C /* MacOS */,
+				5BB64C811B5852B39CB5BC62 /* Shared */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2E5C61AB8D5DEDF1A6965324 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				9A76D03B2674E788C09078E9 /* dylib-Info-template.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		5BB64C811B5852B39CB5BC62 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7B93E1018888AE0B2ABBDF3E /* IphoneOS */ = {
+			isa = PBXGroup;
+			children = (
+				701AAE406745DD00D652140D /* main.swift */,
+			);
+			path = IphoneOS;
+			sourceTree = "<group>";
+		};
+		A3BE7FD86707F5C3972E42D2 /* xcode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = xcode;
+			sourceTree = "<group>";
+		};
+		A9A0D7C9A786E3E89285B5EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FF42C12BAE6C17A2BD48B99 /* Images.xcassets */,
+				7B9E798D7566FA17B53962D4 /* Launch Screen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA5BA4FCB5C6FB916AC8577F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EA7CCA11BC30763944E5C88 /* libEGL.xcframework */,
+				7CCEE2C7DE65D02DC3807645 /* libGLESv2.xcframework */,
+				0D03C4CC89E491D9295489C9 /* SDL3_image.xcframework */,
+				9A0BDCCEBA8D67051D44B471 /* SDL3_mixer.xcframework */,
+				8F56E58A5C5AA1A075C98844 /* SDL3_ttf.xcframework */,
+				9B2BAD2E4386D79088D27DE1 /* SDL3.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8630311BAB2B628B85BC5D2 = {
+			isa = PBXGroup;
+			children = (
+				A9A0D7C9A786E3E89285B5EC /* Resources */,
+				2AFB6256646F5C748E027F5E /* Sources */,
+				2E5C61AB8D5DEDF1A6965324 /* Support */,
+				A3BE7FD86707F5C3972E42D2 /* xcode */,
+				BA5BA4FCB5C6FB916AC8577F /* Frameworks */,
+				00961668E9C919BF4554CF95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		479BCD1507C869E5783E1EC4 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A71CFC79D014E76D4445EB /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				4A590CB0D847DB4C38DDCDFC /* Sources */,
+				E62A259B904C1D9512E25AB1 /* Resources */,
+				D4C57884A372C8EC69F16CAD /* Frameworks */,
+				783A22C08E41D1E6CB1B49BE /* Embed Frameworks */,
+				27C25E3392C1AEF7EBECF923 /* Install App Module */,
+				00C36674158DFEF3586D055F /* Install target specific Python modules */,
+				B318D4A7A6B9296D0B505FD5 /* Sign Python Binary Modules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			packageProductDependencies = (
+				5E888B0492FC4F0FC70438B0 /* PySwiftKitBase */,
+				C83E4EF130BFC7961C692AA7 /* CPython */,
+				67917F3AAA7924FD8CDD82A8 /* Kivy3Launcher */,
+				C8BF671F77B9BEFB5B78EE23 /* Kivy_iOS_Module */,
+				95F2875545B429F7DB5EF722 /* Kivy3Launcher */,
+				C08349877672CCCE516B423D /* Kivy_iOS_Module */,
+			);
+			productName = HelloWorld;
+			productReference = 35D466DB8920E7A52C599EBC /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		993C38E6B55CB9C6F082FDCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 04EE2E1E635D92BC638F96E0 /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E8630311BAB2B628B85BC5D2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				20938A86CC1363CB6BF2D477 /* XCRemoteSwiftPackageReference "CPython" */,
+				229C75BD1D734F266FA39804 /* XCRemoteSwiftPackageReference "KivyLauncher" */,
+				9E769FE84012D3717FC5E6DF /* XCRemoteSwiftPackageReference "Kivy_iOS_Module" */,
+				DA33DDC3910239A55A71FBDD /* XCRemoteSwiftPackageReference "PySwiftKit" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				479BCD1507C869E5783E1EC4 /* HelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E62A259B904C1D9512E25AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A450D8EFF3CC40EF6D8A51D5 /* Images.xcassets in Resources */,
+				9B8359A36279DE175732C2E3 /* Launch Screen.storyboard in Resources */,
+				116B37BA7193FA042545BD03 /* dylib-Info-template.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00C36674158DFEF3586D055F /* Install target specific Python modules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Install target specific Python modules";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif [ \"$EFFECTIVE_PLATFORM_NAME\" = \"-iphonesimulator\" ] || [ \"$EFFECTIVE_PLATFORM_NAME\" = \"-iphoneos\" ]; then\n    echo \"Installing Python modules for iOS Device/Simulator\"\n    mkdir -p \"$CODESIGNING_FOLDER_PATH/python/lib\"\n\tif [ \"$EFFECTIVE_PLATFORM_NAME\" = \"-iphonesimulator\" ]; then\n\t    echo \"Installing Python modules for iOS Simulator\"\n\t    rsync -au --delete \"$PROJECT_DIR/Support/ios-arm64_x86_64-simulator/lib/\" \"$CODESIGNING_FOLDER_PATH/python/lib/\" \n\t    rsync -au --delete \"$PROJECT_DIR/site_packages/iphonesimulator/\" \"$CODESIGNING_FOLDER_PATH/site_packages\" \n\telse\n\t    echo \"Installing Python modules for iOS Device\"\n\t    rsync -au --delete \"$PROJECT_DIR/Support/ios-arm64/lib/\" \"$CODESIGNING_FOLDER_PATH/python/lib\" \n\t    rsync -au --delete \"$PROJECT_DIR/site_packages/iphoneos/\" \"$CODESIGNING_FOLDER_PATH/site_packages\" \n\tfi\n\trsync -au --delete \"$PROJECT_DIR/app/\" \"$CODESIGNING_FOLDER_PATH/app\"\nelse\n    echo \"Installing Python modules for macOS\"\n    #mkdir -p \"$CODESIGNING_FOLDER_PATH/python/lib\"\n\trsync -au --delete \"$PROJECT_DIR/Support/macos-arm64_x86_64/lib/\" \"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/python/lib\"\n\t\n\tSITE_DST=\"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/site_packages\"\n\tmkdir -p $SITE_DST\n\tmkdir -p \"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/app\"\n\techo \"Installing Python modules for macOS Device\"\n\trsync -au --delete \"$PROJECT_DIR/site_packages/macos/\" $SITE_DST\n\trsync -au --delete \"$PROJECT_DIR/app/\" \"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/app\"\nfi";
+		};
+		27C25E3392C1AEF7EBECF923 /* Install App Module */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Install App Module";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nAPP_SRC=\"$PROJECT_DIR/../../\"\nPIP3=\"uv pip\"\nPIP_ARGS=\"--compile -U --no-deps\"\n\nif [ \"$EFFECTIVE_PLATFORM_NAME\" = \"-iphonesimulator\" ]; then\n    echo \"Installing App module for iOS Simulator\"\n    $PIP3 install $APP_SRC $PIP_ARGS -t \"$PROJECT_DIR/site_packages/iphonesimulator/\"\nelif [ \"$EFFECTIVE_PLATFORM_NAME\" = \"-iphoneos\" ]; then\n    echo \"Installing App module for iOS\"\n    $PIP3 install $APP_SRC $PIP_ARGS -t \"$PROJECT_DIR/site_packages/iphoneos/\" \nelse\n    echo \"Installing App module for macOS\"\n    $PIP3 install $APP_SRC $PIP_ARGS -t \"$PROJECT_DIR/site_packages/macos/\" \nfi\n";
+		};
+		B318D4A7A6B9296D0B505FD5 /* Sign Python Binary Modules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Sign Python Binary Modules";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif [ \"$EFFECTIVE_PLATFORM_NAME\" = \"-iphonesimulator\" ] || [ \"$EFFECTIVE_PLATFORM_NAME\" = \"-iphoneos\" ]; then\n    echo \"Installing Python modules for iOS Device/Simulator\"\n    install_dylib () {\n\t    INSTALL_BASE=$1\n\t    FULL_EXT=$2\n\t\n\t    # The name of the extension file\n\t    EXT=$(basename \"$FULL_EXT\")\n\t    # The location of the extension file, relative to the bundle\n\t    RELATIVE_EXT=${FULL_EXT#$CODESIGNING_FOLDER_PATH/} \n\t    # The path to the extension file, relative to the install base\n\t    PYTHON_EXT=${RELATIVE_EXT/$INSTALL_BASE/}\n\t    # The full dotted name of the extension module, constructed from the file path.\n\t    FULL_MODULE_NAME=$(echo $PYTHON_EXT | cut -d \".\" -f 1 | tr \"/\" \".\"); \n\t    # A bundle identifier; not actually used, but required by Xcode framework packaging\n\t    FRAMEWORK_BUNDLE_ID=$(echo $PRODUCT_BUNDLE_IDENTIFIER.$FULL_MODULE_NAME | tr \"_\" \"-\")\n\t    # The name of the framework folder.\n\t    FRAMEWORK_FOLDER=\"Frameworks/$FULL_MODULE_NAME.framework\"\n\t\n\t    # If the framework folder doesn't exist, create it.\n\t    if [ ! -d \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER\" ]; then\n\t        echo \"Creating framework for $RELATIVE_EXT\" \n\t        mkdir -p \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER\"\n\t\n\t        cp \"$CODESIGNING_FOLDER_PATH/dylib-Info-template.plist\" \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER/Info.plist\"\n\t        plutil -replace CFBundleExecutable -string \"$FULL_MODULE_NAME\" \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER/Info.plist\"\n\t        plutil -replace CFBundleIdentifier -string \"$FRAMEWORK_BUNDLE_ID\" \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER/Info.plist\"\n\t    fi\n\t    \n\t    echo \"Installing binary for $FRAMEWORK_FOLDER/$FULL_MODULE_NAME\" \n\t    mv \"$FULL_EXT\" \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER/$FULL_MODULE_NAME\"\n\t    \n\t    # Create a placeholder .fwork file where the .so was\n\t    echo \"$FRAMEWORK_FOLDER/$FULL_MODULE_NAME\" > ${FULL_EXT%.so}.fwork\n\t    \n\t    # Create a back reference to the .so file location in the framework\n\t    echo \"${RELATIVE_EXT%.so}.fwork\" > \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER/$FULL_MODULE_NAME.origin\"\n\t    \n\t    # Copy privacy manifest into framework if one exists alongside the .so\n\t    XCPRIVACY_FILE=\"$(dirname \"$FULL_EXT\")/$(echo $EXT | cut -d '.' -f 1).xcprivacy\"\n\t    if [ -f \"$XCPRIVACY_FILE\" ]; then\n\t    echo \"Copying privacy manifest for $FULL_MODULE_NAME\"\n\t    cp \"$XCPRIVACY_FILE\" \"$CODESIGNING_FOLDER_PATH/$FRAMEWORK_FOLDER/PrivacyInfo.xcprivacy\"\n\t    fi\n\t}\n\t\n\techo \"Install standard library extension modules...\"\n\tfind \"$CODESIGNING_FOLDER_PATH/python/lib/python3.13/lib-dynload\" -name \"*.so\" | while read FULL_EXT; do\n\t    install_dylib python/lib/python3.13/lib-dynload/ \"$FULL_EXT\"\n\tdone\n\techo \"Install app package extension modules...\"\n\tfind \"$CODESIGNING_FOLDER_PATH/site_packages\" -name \"*.so\" | while read FULL_EXT; do\n\t    install_dylib app_packages/ \"$FULL_EXT\"\n\tdone\n\techo \"Install app extension modules...\"\n\tfind \"$CODESIGNING_FOLDER_PATH/app\" -name \"*.so\" | while read FULL_EXT; do\n\t    install_dylib app/ \"$FULL_EXT\"\n\tdone\n\t\n\t# Clean up dylib template \n\trm -f \"$CODESIGNING_FOLDER_PATH/dylib-Info-template.plist\"\n\t\n\techo \"Signing frameworks as $EXPANDED_CODE_SIGN_IDENTITY_NAME ($EXPANDED_CODE_SIGN_IDENTITY)...\"\n\tfind \"$CODESIGNING_FOLDER_PATH/Frameworks\" -name \"*.framework\" -exec /usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" ${OTHER_CODE_SIGN_FLAGS:-} -o runtime --timestamp=none --preserve-metadata=identifier,entitlements,flags --generate-entitlement-der \"{}\" \\; \nelse\n    echo \"Installing Python modules for macOS\"\n    set -e\n\techo \"Signed as $EXPANDED_CODE_SIGN_IDENTITY_NAME ($EXPANDED_CODE_SIGN_IDENTITY)\"\n\t\n\tfind \"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/site_packages\" -name \"*.so\" -exec /usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" -o runtime --timestamp=none --preserve-metadata=identifier,entitlements,flags --generate-entitlement-der {} \\; \n\tfind \"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/app\" -name \"*.so\" -exec /usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" -o runtime --timestamp=none --preserve-metadata=identifier,entitlements,flags --generate-entitlement-der {} \\; \nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A590CB0D847DB4C38DDCDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2728B7103F0DB4F5813AD02 /* main.swift in Sources */,
+				53839D8AEEA66D454A3F9D20 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3280429393A41FA3FBA1F5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		72DC351F8133C2EE79D7230F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloWorld.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Support\"",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pyswift.HelloWorld;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91C02734642ACB1BD6BF3AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloWorld.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Support\"",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pyswift.HelloWorld;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C24C7A9544E293DB9D604F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EE2E1E635D92BC638F96E0 /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3280429393A41FA3FBA1F5D6 /* Debug */,
+				C24C7A9544E293DB9D604F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		39A71CFC79D014E76D4445EB /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DC351F8133C2EE79D7230F /* Debug */,
+				91C02734642ACB1BD6BF3AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20938A86CC1363CB6BF2D477 /* XCRemoteSwiftPackageReference "CPython" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/py-swift/CPython";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 313.0.0;
+			};
+		};
+		229C75BD1D734F266FA39804 /* XCRemoteSwiftPackageReference "KivyLauncher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kivy-school/KivyLauncher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		9E769FE84012D3717FC5E6DF /* XCRemoteSwiftPackageReference "Kivy_iOS_Module" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kivy-school/Kivy_iOS_Module";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DA33DDC3910239A55A71FBDD /* XCRemoteSwiftPackageReference "PySwiftKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/py-swift/PySwiftKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 313.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5E888B0492FC4F0FC70438B0 /* PySwiftKitBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA33DDC3910239A55A71FBDD /* XCRemoteSwiftPackageReference "PySwiftKit" */;
+			productName = PySwiftKitBase;
+		};
+		67917F3AAA7924FD8CDD82A8 /* Kivy3Launcher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 229C75BD1D734F266FA39804 /* XCRemoteSwiftPackageReference "KivyLauncher" */;
+			productName = Kivy3Launcher;
+		};
+		95F2875545B429F7DB5EF722 /* Kivy3Launcher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 229C75BD1D734F266FA39804 /* XCRemoteSwiftPackageReference "KivyLauncher" */;
+			productName = Kivy3Launcher;
+		};
+		C08349877672CCCE516B423D /* Kivy_iOS_Module */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E769FE84012D3717FC5E6DF /* XCRemoteSwiftPackageReference "Kivy_iOS_Module" */;
+			productName = Kivy_iOS_Module;
+		};
+		C83E4EF130BFC7961C692AA7 /* CPython */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20938A86CC1363CB6BF2D477 /* XCRemoteSwiftPackageReference "CPython" */;
+			productName = CPython;
+		};
+		C8BF671F77B9BEFB5B78EE23 /* Kivy_iOS_Module */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E769FE84012D3717FC5E6DF /* XCRemoteSwiftPackageReference "Kivy_iOS_Module" */;
+			productName = Kivy_iOS_Module;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 993C38E6B55CB9C6F082FDCA /* Project object */;
+}
